@@ -8,7 +8,8 @@ Created on Fri Apr 23 13:15:17 2021
 
 
 
-#This function is used to draw the board's current state every time the user turn arrives. 
+
+#Cette fonction est utilisée pour dessiner l'état actuel du tableau à chaque fois que le tour de l'utilisateur arrive. 
 def ConstBoard(board):
     print("Current State Of Board : \n\n");
     for i in range (0,9):
@@ -22,7 +23,7 @@ def ConstBoard(board):
             print("X ",end=" ");
     print("\n\n");
 
-#This function takes the user move as input and make the required changes on the board.
+#Cette fonction prend le mouvement de l'utilisateur en entrée et effectue les changements requis sur le plateau.
 def UserTurn(board):
     pos=input("Enter X's position from [1...9]: ");
     pos=int(pos);
@@ -32,7 +33,7 @@ def UserTurn(board):
     board[pos-1]=-1;
 
     
-#MinMax function
+#MinMax fonction
 def minimax(board,player):
     x=analyzeboard(board);
     if(x!=0):
@@ -52,7 +53,7 @@ def minimax(board,player):
         return 0;
     return value;
     
-#This function makes the computer's move using minmax algorithm.
+#Cette fonction effectue le déplacement de l'ordinateur en utilisant l'algorithme minmax.
 
 def ComputerTurn(board):
     pos=-1;
@@ -69,7 +70,7 @@ def ComputerTurn(board):
     board[pos]=1;
 
 
-#This function is used to analyze a game.
+#Cette fonction est utilisée pour analyser le jeu.
 def analyzeboard(board):
     cb=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
 
@@ -80,7 +81,7 @@ def analyzeboard(board):
             return board[cb[i][2]];
     return 0;
 
-#Main Function.
+#Fonction Main.
 def main():
     
     board=[0,0,0,0,0,0,0,0,0];
