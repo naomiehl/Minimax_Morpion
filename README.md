@@ -1,16 +1,16 @@
 # Minimax_Morpion
 
-## Projet IA
+## AI project
 
-Pour ce projet d’IA, j’ai decide d’implanter l’algorithme de Minimax a un jeu bien connu : le jeu du morpion.
+For this AI project, I decided to implement the Minimax algorithm to a well known game : the tic-tac-toe game.
 
-### Morpion
-Un morpion est un jeu à 2 joueurs, qui marquent à tour de rôle les espaces d'une grille 3x3. Le joueur qui réussit à placer trois de ses marques dans une rangée horizontale, verticale ou diagonale gagne la partie.
+### Tic-tac-toe
+Tic-tac-toe is a game with 2 players, who take turns to mark the spaces of a 3x3 grid. The player who manages to place three of his marks in a horizontal, vertical or diagonal row wins the game.
 
 ### Minimax
 
-Minimax est une règle de décision utilisée en théorie de la décision, en théorie des jeux, en statistique et en philosophie pour minimiser la perte possible dans le cas du scénario le plus défavorable (perte maximale). Formulée à l'origine pour la théorie des jeux à somme nulle à deux joueurs, couvrant à la fois les cas où les joueurs effectuent des mouvements alternatifs et ceux où ils effectuent des mouvements simultanés, elle a également été étendue à des jeux plus complexes et à la prise de décision générale en présence d'incertitude.
+Minimax is a decision rule used in decision theory, game theory, statistics, and philosophy to minimize the possible loss in the worst case scenario (maximum loss). Originally formulated for the theory of two-player zero-sum games, covering both cases where players make alternative moves and those where they make simultaneous moves, it has also been extended to more complex games and to general decision making under uncertainty.
 
-### Implementation du jeu
+### Implementation of the game
 
-Ce jeu que j’ai implemente se joue en solo contre l’ordinateur, qui utilise l’algorithme de MiniMax et est donc imbattable. Même si le joueur joue le coup le plus optimal à chaque fois, le résultat final sera presque un match nul. Chaque fois qu’un coup est joue, l'ordinateur joue automatiquement un coup retour. 
+This game I implemented is played solo against the computer, which uses the MiniMax algorithm and is therefore unbeatable. Even if the player plays the most optimal move every time, the final result will be almost a draw. Each time a move is made, the computer automatically makes a return move. 
