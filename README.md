@@ -16,4 +16,4 @@ Minimax is a decision rule used in decision theory, game theory, statistics, and
 This game I implemented is played solo against the computer, which uses the MiniMax algorithm and is therefore unbeatable. Even if the player plays the most optimal move every time, the final result will be almost a draw. Each time a move is made, the computer automatically makes a return move. 
 
 
-![](Minimax_game.gif)
+![](Minimax-Game.gif)
