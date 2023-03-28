@@ -17,3 +17,4 @@ This game I implemented is played solo against the computer, which uses the Mini
 
 
 ![](Minimax-Game.gif)
+Code is from Naomie Halioua
